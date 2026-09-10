@@ -26,11 +26,11 @@ export default function Login({ onSuccess }) {
         <p className="login-eyebrow">Kvällens spelning</p>
         <h1 className="login-title">Nationsormen</h1>
         <p className="login-subtitle">
-          test
+          Ett rum, en orm, tio minuter. Ange lösenordet för kvällen för att komma in.
         </p>
         <form onSubmit={handleSubmit} className="login-form">
           <label htmlFor="username" className="login-label">
-            Password
+            password
           </label>
           <input
             id="username"
