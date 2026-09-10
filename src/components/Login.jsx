@@ -30,7 +30,7 @@ export default function Login({ onSuccess }) {
         </p>
         <form onSubmit={handleSubmit} className="login-form">
           <label htmlFor="username" className="login-label">
-            Lösenord
+            Password
           </label>
           <input
             id="username"
